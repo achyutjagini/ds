@@ -1,0 +1,12 @@
+Double hashing is a collision resolving technique in
+ Open Addressed Hash tables.
+ Double hashing uses the idea of applying a 
+second hash function to key when a
+collision occurs.
+
+(hash1(key) + i * hash2(key)) % TABLE_SIZE
+ Here hash1() and hash2() are hash functions and TABLE_SIZE
+is size of hash table.
+We repeat by increasing i when collision occurs
+
+First hash function is typically hash1(key) = key % TABLE_SIZE

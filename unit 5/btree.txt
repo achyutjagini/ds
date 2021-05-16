@@ -1,0 +1,11 @@
+B-Tree is a self-balancing search tree. 
+In most of the other self-balancing search trees (like AVL  Trees),
+it is assumed that everything is in main memory.
+To understand the use of B-Trees, we must think of the huge amount of data
+that cannot fit in main memory.
+
+
+ When the number of keys is high, 
+the data is read from disk in the form of blocks.
+ Disk access time is very high compared to the main memory access time. 
+ The main idea of using B-Trees is to reduce the number of disk accesses. 
